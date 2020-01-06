@@ -5,7 +5,7 @@ require 'directors_database'
 def pretty_print_nds(nds)
 puts pp nds
 end
-pretty_print_nds(directors_database)
+
 
 def print_first_directors_movie_titles
   while [:name] == "Stephen Spielberg"
