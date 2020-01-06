@@ -8,7 +8,7 @@ end
 pretty_print_nds(directors_database)
 
 def print_first_directors_movie_titles
-  if [:name] == "Stephen Spielberg"
+  while [:name] == "Stephen Spielberg"
     return [:movies][:title]
   end
 end
