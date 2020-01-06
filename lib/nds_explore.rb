@@ -12,7 +12,7 @@ def print_first_directors_movie_titles
 directors_database.each do |dir_name, dir_info|
 dir_name[:movies].each do |title|
   if [:name] == "Stephen Spielberg"
-    puts "hi"
+    return "hi"
   end
     end
   end
