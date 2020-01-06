@@ -13,6 +13,7 @@ directors_database.each do |name, info|
 info[:movies].each do |title|
   if name == "Stephen Spielberg"
     put [:movies][:title]
+  end
     end
   end
 end
